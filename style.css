@@ -1,7 +1,8 @@
 body {
   background-color: mintcream;
   font-family: sans-serif;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
 }
 
@@ -11,51 +12,105 @@ hl {
   text-align: center;
   color: darkred;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
+  padding: 5;
+}
+
+.paragraf {
+  font-family: sans-serif;
+  margin-bottom: 30px;
 }
 
 h2 {
-  color: darkred
+  color: darkred;
+  padding: 5px;
 }
 
 li {
   margin-bottom: 20px;
 }
 
+img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
+
 .Sumber {
   text-align: center;
 }
 
-.sosmed{
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
+.sosmed {
+  display: flex;
+  gap: 12px;
 }
 
 .tombol-sosmed {
-  display: inline-block;
-  background-color: darkred;
+  display: inline-flex;
+  justify-content: center;
+  background-color: red;
   color: white;
-  padding: 10px 35px;
-  margin: 6px;
+  padding: 12px 12px;
+  margin: 4px;
   text-decoration: none;
   border-radius: 20px;
   font-weight: bold;
   font-size: 14px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
 }
 
 .tombol-sosmed-2 {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    padding: 10px 35px;
-    margin: 6px;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 14px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 12px 12px;
+  margin: 4px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tombol-sosmed-3 {
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+  padding: 12px 12px;
+  margin: 4px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 5px 6px rgba(0,0,0,0.15);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.footer-sosmed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 0;
+  background-color: lightslategray;
+  width: 100%
+}
+
+.judul-sosmed {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 13px;
+  color: #e0e0e0;
+  margin: 0;
 }
